@@ -28,7 +28,19 @@ B) Modelling
    Hasil dari Random Forest
    ![Random Forest](assets/random_forest.jpg)
    ![Random Forest Result](assets/rf_result.jpg)
-   
+
+2. XgBoost
+    Splitting dataset 80% untuk training & 20% untuk testing
+   Hasil dari Random Forest
+   ![XgBoost](assets/xgboost.jpg)
+   ![XgBoost Result](assets/xgboost_result.jpg)
+
+2. Tabnet
+    Splitting dataset 80% untuk training & 20% untuk testing
+   Hasil dari Random Forest
+   ![Tabnet](assets/Tabnet.jpg)
+   ![Tabnet Result](assets/Tabnet_result.jpg)
+
 
 ## Link Model
 
