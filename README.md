@@ -13,7 +13,8 @@ Tidak hanya itu, proyek ini mempunyai fitur Analisis Data yang berisikan informa
 3. Tabnet
 
 ##Overview Dataset
-**Link Dataset yang digunakan :** [World Meat Producyion Datasets 1961-2028] (https://www.kaggle.com/datasets/pragadesh06/meat-production-datasets1961-2018). Pada dataset tersebut ada beberapa file data. Oleh karena itu, pada proyek ini saya menggunakan dataset dengan nama file global-meat-production-by-livestock-type.csv
+
+**Link Dataset yang digunakan :** [World Meat Producyion Datasets 1961-2028](https://www.kaggle.com/datasets/pragadesh06/meat-production-datasets1961-2018). Pada dataset tersebut ada beberapa file data. Oleh karena itu, pada proyek ini saya menggunakan dataset dengan nama file global-meat-production-by-livestock-type.csv
 
 ##Preprocessing dan Modelling
 A) Preprocessing yang dilakukan pada semua model :
@@ -27,19 +28,25 @@ B) Modelling
    Splitting dataset 80% untuk training & 20% untuk testing
    Hasil dari Random Forest
    ![Random Forest](assets/random_forest.jpg)
+   Gambar di atas merupakan _Classification Report_ dari model setelah dilakukan _predict_ terhadap _Testing Set_. Dapat dilihat bahwa akurasinya mencapai **1.00 (100%)**.
    ![Random Forest Result](assets/rf_result.jpg)
+   Gambar diatas merupakan Confusion Matix dari model Random Forest. Dapat dilihat bahwa model dapat memprediksi semua kategori dengan hampir benar semua.
 
 2. XgBoost
-    Splitting dataset 80% untuk training & 20% untuk testing
+   Splitting dataset 80% untuk training & 20% untuk testing
    Hasil dari Random Forest
    ![XgBoost](assets/xgboost.jpg)
+   Gambar di atas merupakan _Classification Report_ dari model setelah dilakukan _predict_ terhadap _Testing Set_. Dapat dilihat bahwa akurasinya mencapai **1.00 (100%)** dengan hasil prediksi Kategori "Sedang" **99%**.
    ![XgBoost Result](assets/xgboost_result.jpg)
+   Gambar diatas merupakan Confusion Matix dari model XGBoost. Model dapat memprediksi semua kategori dengan hampir benar semua juga sama seperti Random Forest, tetapi masih lebih bagus hasil dari Random Forest. Disini model XGBoost masih kurang/salah dalam memprediksi kategori "Sedang" dan "Tinggi"
 
-2. Tabnet
-    Splitting dataset 80% untuk training & 20% untuk testing
-   Hasil dari Random Forest
+3. Tabnet
+   Splitting dataset 80% untuk training & 20% untuk testing
+   Hasil dari Tabnet
    ![Tabnet](assets/Tabnet.jpg)
+   Gambar diatas merupakan Confusion Matix dari model Tabnet. Dapat dilihat bahwa akurasinya mencapai 80% dengan hasil prediksi Kategori "Sedang" **92%** dan "Tinggi" **66%**.
    ![Tabnet Result](assets/Tabnet_result.jpg)
+   Gambar diatas merupakan Confusion Matix dari model Tabnet. Model dapat memprediksi semua kategori "Rendah" hampir benar semua, tetapi masih kurang/salah dalam memprediksi kategori "Sedang" dan "Tinggi"
 
 
 ## Link Model
