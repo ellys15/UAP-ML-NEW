@@ -76,7 +76,8 @@ Model yang digunakan dalam proyek ini dapat diakses melalui Google Drive:
 
 Silakan unduh model dari link di atas untuk menjalankan proyek ini.
 
-##**Author**👩‍💻
+
+## **Author**👩‍💻
 
 Ellys Rahma Putri Bintoro
 202110370311468
