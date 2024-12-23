@@ -81,5 +81,7 @@ Silakan unduh model dari link di atas untuk menjalankan proyek ini.
 ## **Author**👩‍💻
 
 Ellys Rahma Putri Bintoro
+
 202110370311468
+
 Machine Learning - 7C           
