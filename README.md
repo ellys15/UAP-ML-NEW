@@ -28,6 +28,7 @@ Tidak hanya itu, proyek ini mempunyai fitur Analisis Data yang berisikan informa
 7. pdm add scikit-learn
 8. pdm add seaborn
 9. pdm add pandas numpy matplotlib
+
 **Cara install yaitu:**
 Saya menggunakan PDM (Python Dependency Management) sebagai pengelola proyek Python saya. Jika belum menginstall PDM, install dengan cara _pdm init_ pada terminal/Windows Powershell. Jika sudah terinstall, pada vscode sudah dapat digunakan dan bisa untuk menginstall dependensi yang diinginkan.
 Semua yang saya tulis diatas, itu cara untuk install langsung pada terminal di vscode, menggunakan kode _"pdm add (dependensi yang diinginkan)"_. Install dependensi ini sangat penting untuk keberhasilan code yang sudah dibuat. Oleh karena itu, sebelum melakukan pembuatan code/coding, harus memastikan dulu dependensi apa saja yang perlu untuk digunakan.
