@@ -37,7 +37,7 @@ Jika sudah terinstall semua, kita tinggal panggil untuk library yang kita butuhk
 
 **Contoh install :**
 
-{Gambar}
+![Install Dependensi XGBoost](assets/contoh_install_dependensi.jpg)
 
 
 ## 🔄Preprocessing dan Modelling🤖
@@ -77,19 +77,19 @@ Jika sudah terinstall semua, kita tinggal panggil untuk library yang kita butuhk
 
 **Tampilan HomePage**
 
-{gambar}
+![Homepage](assets/Homepage.jpg)
 
 **Page Analisis Data**
 
-{gambar}
+![Halaman analisis data](assets/Halaman_analisis_data.jpg)
 
 **Page Klasifikasi Data**
 
-{gambar}
+![Halaman Klasifikasi](assets/Halaman_klasifikasi.jpg)
 
 **Page Prediksi Data Baru**
 
-{gambar}
+![Halaman prediksi data baru](assets/Halaman_prediksi_data_baru.jpg)
 
 
 ## Link Model🤖
