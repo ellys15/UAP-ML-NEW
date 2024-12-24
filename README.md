@@ -96,8 +96,6 @@ B) Modelling
 Model yang digunakan dalam proyek ini dapat diakses melalui Google Drive:
 [Download Model](https://drive.google.com/drive/folders/1Gdc-B5pRz4Qv_Argh-KXFc6i44yCT3HC?usp=sharing)
 
-Silakan unduh model dari link di atas untuk menjalankan proyek ini.
-
 
 ## **Author**👩‍💻
 
