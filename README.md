@@ -33,7 +33,9 @@ Tidak hanya itu, proyek ini mempunyai fitur Analisis Data yang berisikan informa
 Saya menggunakan PDM (Python Dependency Management) sebagai pengelola proyek Python saya. Jika belum menginstall PDM, install dengan cara _pdm init_ pada terminal/Windows Powershell. Jika sudah terinstall, pada vscode sudah dapat digunakan dan bisa untuk menginstall dependensi yang diinginkan.
 Semua yang saya tulis diatas, itu cara untuk install langsung pada terminal di vscode, menggunakan kode _"pdm add (dependensi yang diinginkan)"_. Install dependensi ini sangat penting untuk keberhasilan code yang sudah dibuat. Oleh karena itu, sebelum melakukan pembuatan code/coding, harus memastikan dulu dependensi apa saja yang perlu untuk digunakan.
 Jika sudah terinstall semua, kita tinggal panggil untuk library yang kita butuhkan dari dependensi yang sudah kita install tadi.
+
 **Contoh install :**
+
 {Gambar}
 
 
@@ -68,6 +70,25 @@ B) Modelling
    Gambar diatas merupakan Confusion Matix dari model Tabnet. Dapat dilihat bahwa akurasinya mencapai 80% dengan hasil prediksi Kategori "Sedang" **92%** dan "Tinggi" **66%**.
    ![Tabnet Result](assets/Tabnet_result.jpg)
    Gambar diatas merupakan Confusion Matix dari model Tabnet. Model dapat memprediksi semua kategori "Rendah" hampir benar semua, tetapi masih kurang/salah dalam memprediksi kategori "Sedang" dan "Tinggi"
+
+
+## Local Web Deployment
+
+**Tampilan HomePage**
+
+{gambar}
+
+**Page Analisis Data**
+
+{gambar}
+
+**Page Klasifikasi Data**
+
+{gambar}
+
+**Page Prediksi Data Baru**
+
+{gambar}
 
 
 ## Link Model🤖
