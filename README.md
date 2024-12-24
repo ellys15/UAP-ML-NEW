@@ -1,4 +1,4 @@
-# 🤖Analisis Prediksi Berdasarkan Kategori Produksi Daging Hewan Ternak
+# 🤖Analisis Prediksi Berdasarkan Kategori Produksi Daging Hewan Ternak🐐
 
 Repositori ini berisi projek tugas akhir untuk UAP
 
@@ -14,11 +14,11 @@ Tidak hanya itu, proyek ini mempunyai fitur Analisis Data yang berisikan informa
 
 ## Overview Dataset🗂️ 
 
-**Link Dataset yang digunakan :** [World Meat Producyion Datasets 1961-2018](https://www.kaggle.com/datasets/pragadesh06/meat-production-datasets1961-2018). Pada dataset tersebut ada beberapa file data. Oleh karena itu, pada proyek ini saya menggunakan dataset dengan nama file _global-meat-production-by-livestock-type.csv_ yang berisi 13.503 sampel.
+**Link Dataset yang digunakan :** [World Meat Production Datasets 1961-2018](https://www.kaggle.com/datasets/pragadesh06/meat-production-datasets1961-2018). Pada dataset tersebut ada beberapa file data. Oleh karena itu, pada proyek ini saya menggunakan dataset dengan nama file **_global-meat-production-by-livestock-type.csv_** yang berisi **13.503** sampel.
 
 ## Langkah Instalasi🚀
 
-**Dependensi yang dipakai yaitu :**
+**Dependensi yang dipakai :**
 1. pdm add streamlit
 2. pdm add torch
 3. pdm add xgboost
@@ -29,9 +29,10 @@ Tidak hanya itu, proyek ini mempunyai fitur Analisis Data yang berisikan informa
 8. pdm add seaborn
 9. pdm add pandas numpy matplotlib
 
-**Cara install yaitu:**
-Saya menggunakan PDM (Python Dependency Management) sebagai pengelola proyek Python saya. Jika belum menginstall PDM, install dengan cara _pdm init_ pada terminal/Windows Powershell. Jika sudah terinstall, pada vscode sudah dapat digunakan dan bisa untuk menginstall dependensi yang diinginkan.
-Semua yang saya tulis diatas, itu cara untuk install langsung pada terminal di vscode, menggunakan kode _"pdm add (dependensi yang diinginkan)"_. Install dependensi ini sangat penting untuk keberhasilan code yang sudah dibuat. Oleh karena itu, sebelum melakukan pembuatan code/coding, harus memastikan dulu dependensi apa saja yang perlu untuk digunakan.
+**Cara install :**
+
+Saya menggunakan PDM (Python Dependency Management) sebagai pengelola proyek Python saya. Jika belum menginstall PDM, install dengan cara **_pdm init_** pada terminal/Windows Powershell. Jika sudah terinstall, pada vscode sudah dapat digunakan dan bisa untuk menginstall dependensi yang diinginkan.
+Semua yang saya tulis diatas, itu cara untuk install langsung pada terminal di vscode, menggunakan kode **_"pdm add (dependensi yang diinginkan)"_**. Install dependensi ini sangat penting untuk keberhasilan code yang sudah dibuat. Oleh karena itu, sebelum melakukan pembuatan code/coding, harus memastikan dulu dependensi apa saja yang perlu untuk digunakan.
 Jika sudah terinstall semua, kita tinggal panggil untuk library yang kita butuhkan dari dependensi yang sudah kita install tadi.
 
 **Contoh install :**
@@ -40,13 +41,13 @@ Jika sudah terinstall semua, kita tinggal panggil untuk library yang kita butuhk
 
 
 ## 🔄Preprocessing dan Modelling🤖
-A) Preprocessing yang dilakukan pada semua model :
+**A) Preprocessing yang dilakukan pada semua model :**
 1. Pengisian nilai yang kosong dengan nilai median
 2. Menambahkan kolom Total Production
 3. Menambahkan Kolom Kategori _"Rendah"_, _"Sedang",_ _"Tinggi"_ (sebagai Target)
 4. Pembagian kategori sama rata menggunakan qcut : 3 (_"Rendah"_, _"Sedang",_ _"Tinggi"_)
 
-B) Modelling
+**B) Modelling**
 1. Random Forest
    Splitting dataset 80% untuk training & 20% untuk testing
    Hasil dari Random Forest
@@ -72,7 +73,7 @@ B) Modelling
    Gambar diatas merupakan Confusion Matix dari model Tabnet. Model dapat memprediksi semua kategori "Rendah" hampir benar semua, tetapi masih kurang/salah dalam memprediksi kategori "Sedang" dan "Tinggi"
 
 
-## Local Web Deployment
+## 💻Local Web Deployment🌐
 
 **Tampilan HomePage**
 
